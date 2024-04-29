@@ -492,15 +492,20 @@ max-width: 264px;
     gap: 16px;
 }
 
+.link-btn .social-link-bot {
+    background-color: #4d5ae5;
+}
+
 .link-btn:hover .social-link-bot,
-.link-btn:focus .social-link-bot {
+.link-btn:focus {
     background-color: #31d0aa;
 }
 
 .link-btn:hover .social-icons-bot,
 .link-btn:focus .social-icons-bot {
-    background-color: #31d0aa;
+    background-color: #404BBF;
 }
+
 
 .svg-link {
     fill: #f4f4fd;
