@@ -493,7 +493,7 @@ max-width: 264px;
 }
 
 .link-btn:hover .social-link-bot,
-.link-btn:focus {
+.link-btn:focus .social-link-bot {
     background-color: #31d0aa;
 }
 
