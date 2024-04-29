@@ -474,13 +474,13 @@ max-width: 264px;
     margin-right: 120px;
 }
 
-.social-text-footer {
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #fff;
-            margin-bottom: 16px;
+.social-foot-text {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
 }
 
 .social-list-footer {
