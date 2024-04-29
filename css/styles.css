@@ -484,8 +484,8 @@ max-width: 264px;
     gap: 16px;
 }
 
-.social-link:hover social-link-footer,
-.social-link:focus social-link-footer {
+.social-link-footer:hover social-link-footer,
+.social-link-footer:focus social-link-footer {
 background-color: #31d0aa;
 }
 
