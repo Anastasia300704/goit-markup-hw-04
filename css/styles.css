@@ -343,7 +343,9 @@ display: flex;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list:hover .social-link,
+.social-list:hover .social-link {
+    background-color: #404bbf;
+}
 .social-list:focus .social-link {
     background-color: #404bbf;
 }
@@ -409,14 +411,6 @@ background-color: #fff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.portfolio-list-text {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
 }
 
 .container-portfolio {
@@ -498,9 +492,13 @@ link-footer:focus {
     background-color: #31d0aa;
 }
 
-link-footer:hover .social-icons-footer,
-link-footer:focus {
+link-footer:focus,
+link-footer:hover {
     background-color: #31d0aa;
+}
+
+.svg-link {
+    fill: #f4f4fd;
 }
 
 
